@@ -9,7 +9,11 @@ export class MacchinaComponent implements OnInit {
 
   @Input () macchina : String ;
 
-  constructor() { }
+  pezzi : String [];
+
+  constructor() {
+    this.pezzi = ["viti","bulloni","ferro"];
+  }
 
   ngOnInit() {
   }
