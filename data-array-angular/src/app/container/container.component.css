@@ -1,0 +1,15 @@
+ul{
+  background-color: gray;
+  width: 20%;
+  padding: 15px;
+}
+li{
+  background-color: lightblue;
+  border-style: solid;
+  margin: 10px;
+  padding: 5px;
+  list-style-type: none;
+  margin-left: 0px;
+  font-size: 24px;
+
+}
