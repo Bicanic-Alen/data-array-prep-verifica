@@ -7,11 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContainerComponent implements OnInit {
 
-  macchine : String [];
+  macchines : String [];
 
   constructor() {
 
-    this.macchine = ["ruspa","gru","rullo","bettoniera","escavatore"];
+    this.macchines = ["ruspa","gru","rullo","bettoniera","escavatore"];
 
   }
 
